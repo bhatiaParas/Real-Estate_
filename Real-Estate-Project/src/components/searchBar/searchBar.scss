@@ -1,0 +1,89 @@
+
+@import "../../responsive.scss";
+
+.searchBar {
+
+    .type {
+
+        button {
+
+            padding: 16px 36px;
+            border: 1px solid #999;
+            border-bottom: none;
+            cursor: pointer;
+            background-color: white;
+
+            &.active{
+
+                background-color: black;
+                color: white;
+                 
+            }
+
+            &:first-child {
+
+                border-top-left-radius: 5px;
+                border-right: none;
+            }
+            &:last-child {
+
+                border-top-right-radius: 5px;
+                border-left: none;
+            }
+        }
+    }
+
+    form {
+
+        border: 1px solid #999;
+        display: flex;
+       justify-content: space-between;
+        height: 64px;
+        gap: 2px;
+
+
+
+
+
+        input{
+
+            border: none;
+            padding-left: 4px;
+            padding-right: 10px;
+            width: 150px;
+
+            @include lg{
+
+                padding: 0px 5px;
+
+                &:nth-child(2), &:nth-child(3) {
+
+                    width: 100px;
+                    
+                }
+
+
+            }
+        }
+
+        button {
+
+            border: none;
+            cursor: pointer;
+            background-color: #fece51;
+            flex: 0.6;
+        
+            img {
+
+                width: 20px;
+                height: 20px;
+            }
+
+            @include lg{
+                
+                width: 20px;
+                
+        }
+    }
+}
+}
