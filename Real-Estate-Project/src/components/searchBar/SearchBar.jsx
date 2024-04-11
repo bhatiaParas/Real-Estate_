@@ -46,7 +46,7 @@ function SearchBar () {
                     name='maxPrice' 
                     min={0}
                     max={1000000}
-                    placeholder='Max Price'
+                    placeholder='Min Price'
                     />
                     <input 
                     type="number"
