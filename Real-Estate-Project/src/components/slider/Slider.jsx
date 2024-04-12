@@ -1,6 +1,6 @@
 import './slider.scss';
 
-function Slider () {
+function Slider ({images}) {
     return (
         <div className="slider">Slider</div>
     )
