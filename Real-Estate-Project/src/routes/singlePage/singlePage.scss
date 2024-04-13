@@ -113,7 +113,8 @@
     }
 
     .wrapper {
-      padding: 0px 20px;
+      padding-left: 7px;
+      padding-right: 7px;
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -123,14 +124,14 @@
       }
 
       img {
-        width: 24px;
-        height: 24px;
+        width: 18px;
+        height: 18px;
       }
 
       .title {
         font-weight: bold;
-        font-size: 18px;
-        margin-bottom: 10px;
+        font-size: 15px;
+        
       }
 
       .feature {
@@ -139,15 +140,16 @@
         gap: 10px;
 
         img {
-          background-color: rgba(254, 205, 81, 0.209);
+          background-color: rgba(189, 245, 59, 0.209); 
         }
 
         .featureText {
           span {
             font-weight: bold;
+           
           }
           p {
-            font-size: 14px;
+            font-size: 12px;
           }
         }
       }
@@ -166,6 +168,7 @@
         padding: 20px 10px;
         background-color: white;
         border-radius: 10px;
+        
       }
 
       .sizes {
@@ -179,7 +182,7 @@
         .size {
           display: flex;
           align-items: center;
-          gap: 10px;
+          gap: 5px;
           background-color: white;
           padding: 10px;
           border-radius: 5px;
