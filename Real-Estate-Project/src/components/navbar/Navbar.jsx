@@ -16,9 +16,10 @@ function Navbar() {
           <span>BhatiaEstate</span>
         </a>
         <a href="/">Home</a>
-        <a href="/">About</a>
-        <Link>About</Link>
-        <a href="/">Agents</a>
+        
+        <Link to= "/about">About</Link>
+        <Link to= "/list">Properities</Link>
+        <Link to= "/:id">SinglePage</Link>
       </div>
       <div className="right">
       
@@ -26,7 +27,7 @@ function Navbar() {
               <div className="user">
                 <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                  alt="" />
-                 <span className="john">John Doe</span>
+                 <span className="john">Paras Bhatia</span>
                 <Link to = "/profile" className="profile">
                   <div className="notification">3</div>
                   <span>Profile</span>

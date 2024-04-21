@@ -57,8 +57,13 @@ function SearchBar () {
                     />
 
                     <button>
+                      
                         <img src="https://github.com/safak/react-estate-ui/blob/completed/public/search.png?raw=true"
-                         alt="" />
+                         alt="" 
+                         
+                         />
+                        
+                         
                     </button>
                 </form>
             

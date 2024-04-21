@@ -11,6 +11,7 @@ import {
 import Layout from './routes/layout/layout.jsx';
 import SinglePage from './routes/singlePage/singlePage.jsx';
 import ProfilePage from './routes/profilePage/profilePage.jsx';
+import About from './routes/About/About.jsx';
 function App() {
   
     const router = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
           {
             path: "/profile",
             element: <ProfilePage />
+          },
+          {
+            path: "/about",
+            element: <About />
           }
         ]
       },

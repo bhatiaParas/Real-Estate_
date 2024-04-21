@@ -21,10 +21,10 @@ function ProfilePage() {
               />
             </span>
             <span>
-              Username: <b>John Doe</b>
+              Username: <b>Paras Bhatia</b>
             </span>
             <span>
-              E-mail: <b>john@gmail.com</b>
+              E-mail: <b>parasbhatia13630859@gmail.com</b>
             </span>
           </div>
           <div className="title">
