@@ -1,12 +1,11 @@
 // import express from 'express'; 
-import router from './routes/post.route.js';
 // const  app = express();
 
 // app.use("/api/posts",router);
 
 // // app.use("/api/akash", (req,res)=>{
-// //     res.send('it works, !!!')
-// // })
+    // //     res.send('it works, !!!')
+    // // })
 
 // app.listen(8800, () => {
 //     console.log("Server is running")
@@ -25,6 +24,7 @@ import router from './routes/post.route.js';
 
 
 
+import router from './routes/post.route.js';
 import express from 'express';
 
 import  cors from "cors"
