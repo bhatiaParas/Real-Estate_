@@ -5,7 +5,10 @@ function About() {
         <div className="about">
         <div className="textContainer">
 
+
             <div className="wrapper">
+
+            <div className="about">About us</div>
                 <p>
 
         Lorem ipsum dolor, sit amet consectetur adipisicing elit.

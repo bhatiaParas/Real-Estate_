@@ -1,4 +1,4 @@
- import Filter from '../../components/filter/Filter';
+import Filter from '../../components/filter/Filter';
 import { listData } from '../../lib/dummydata';
 import './listPage.scss';
 import Card from '../../components/card/Card';
